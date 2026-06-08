@@ -11,10 +11,14 @@ Pre-requisites:
 1) Clone this repo
 
 2) Run the pipeline
-```uv run tableau_public_pipeline.py```
+```
+    uv run tableau_public_pipeline.py
+```
 
 3) Check what tables have been created and what the data looks like
-```dlthub local show```
+```
+    dlthub local show
+```
 
 
 
