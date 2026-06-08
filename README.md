@@ -27,29 +27,42 @@ Pre-requisites:
 
 
 ## How I ran the demo
-1) The demo started with an empty folder and consisted of:
+1) Open your empty repo
 
+```
     cd path/to/folder
+```
 
 2) Create and activate a virtual environment
-
+```
     uv venv
     source .venv/bin/activate
+```
 
 3)  Initialize uv and download dlthub
-```uv init```
-```uv add "dlt[hub]"```
+```
+    uv init
+    uv add "dlt[hub]"
+```
 
 4) Initialize dlthub ai workbench feature with Claude
-```uv run dlthub ai init --agent claude```
+```
+    uv run dlthub ai init --agent claude
+```
 
 5) Add the rest api skills as we will be working with Tableau Public API
-```uv run dlthub ai toolkit install rest-api-pipeline```
+```
+    uv run dlthub ai toolkit install rest-api-pipeline
+```
 
 6) Open Claude within the terminal and start prompting
-```claude```
+```
+    claude
+```
 
 7) Prompt
-```using dlthub ai toolkit and the context of this repo https://github.com/cwaihai/shift_yourself_left_berlinTUG_2026_context please build a dlt pipeline from tableau public to duckdb```
+```
+    using dlthub ai toolkit and the context of this repo https://github.com/cwaihai/shift_yourself_left_berlinTUG_2026_context please build a dlt pipeline from tableau public to duckdb
+```
 
 8) Grab a coffee, quick check and approve requests from Claude and let him do light troubleshooting until a dlt pipeline, tableau_public_pipeline.py is created and run smoothly.
