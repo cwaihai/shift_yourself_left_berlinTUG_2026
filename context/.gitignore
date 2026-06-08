@@ -1,0 +1,11 @@
+# dlt pipeline state and local database
+*.duckdb
+.dlt/secrets.toml
+.dlt/*.secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.uv/
+uv.lock

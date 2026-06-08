@@ -1,0 +1,56 @@
+init:
+  version: 0.1.0
+  description: Shared rules, secrets handling, and workspace MCP for dlt
+  tags:
+  - dlt
+  - init
+  - rules
+  - secrets
+  - mcp
+  installed_at: '2026-05-25T15:37:10.797130+00:00'
+  agent: claude
+  files:
+    .claude/skills/improve-skills/SKILL.md:
+      sha3_256: c52b222d82d101eaacbbf19d271d3f24b20d8e2bc70d49919d56144d448cd5c4
+    .claude/skills/setup-secrets/SKILL.md:
+      sha3_256: cec0417ff73959818936a113da042f923e99a0ae6ea4d47bca0d79fef0e783e5
+    .claude/skills/setup-secrets/cli-reference.md:
+      sha3_256: 75c153cbac239add05e8b986ed347326d9bf1b161a01cc0e072908d93073cce9
+    .claude/skills/toolkit-dispatch/SKILL.md:
+      sha3_256: 9041db92850ec0d0f62ec14158f51e7bcf5c7a832d0230de08910d72f5788f0a
+    .claudeignore:
+      sha3_256: 1aa4dc9286dd219dcb55399f388c5ee1f940ab5e399a42b644d488cba57a9ec0
+    .claude/rules/init-dlthub-workspace.md:
+      sha3_256: ba9d5e7636ff594f65d11c83eee7bcd34a3d2cd16fc49aa99096227eb240d1d2
+  mcp_servers:
+  - dlt-workspace-mcp
+  name: init
+data-exploration:
+  version: 0.1.0
+  description: Quick insights from dlt pipeline data. Connect to a pipeline, profile
+    tables, plan charts, and assemble marimo dashboards.
+  tags:
+  - dlt
+  - marimo
+  - ibis
+  - data-exploration
+  - dashboards
+  - altair
+  dependencies:
+  - init
+  workflow_entry_skill: explore-data
+  installed_at: '2026-05-25T15:56:22.171073+00:00'
+  agent: claude
+  files:
+    .claude/skills/build-notebook/SKILL.md:
+      sha3_256: f853f8ef20abcf409953760ef560f5842ef2792a9d2a561925b0bcc4f311ca2c
+    .claude/skills/build-notebook/references/notebook-patterns.md:
+      sha3_256: 96d80469820be9e1beddd10961b0a588da526c7678a0d12561e24f30e91037d3
+    .claude/skills/explore-data/SKILL.md:
+      sha3_256: bff422bf09e9f6cadc31cea2618232920e048f963ff5d5e9c9b96859c1ad5dda
+    .claude/skills/explore-data/references/analysis-plan-format.md:
+      sha3_256: 8fcb5223200f4e566432fda35be8b555b8a88274b9f1dc42c41a21c4d6ddbab5
+    .claude/skills/explore-data/references/dlt-relation-api.md:
+      sha3_256: 4145d283ab6c0bf87e5289460f0a951aa2163d6ae118dfdca69eef824f2d91ee
+    .claude/rules/data-exploration-workflow.md:
+      sha3_256: e54bef43a8dfe9a2586f753c0a991791e1bea5cd3cf5cad4a1867ab24106122a

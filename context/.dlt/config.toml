@@ -1,0 +1,6 @@
+# Tableau Public pipeline configuration
+# Set profile_name to the Tableau Public username you want to load.
+# Find it in the URL: https://public.tableau.com/app/profile/<profile_name>
+
+[sources.tableau_public]
+profile_name = "carole6045"   # replace with your Tableau Public username
