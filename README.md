@@ -28,9 +28,11 @@ Tools I used:
 
 How I ran the demo
 1) The demo started with an empty folder and consisted of:
+
 ```cd path/to/folder```
 
 2) Create and activate a virtual environment
+
 ```uv venv```
 ```source .venv/bin/activate```
 
