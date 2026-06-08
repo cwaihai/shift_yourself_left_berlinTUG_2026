@@ -21,20 +21,20 @@ Pre-requisites:
 
 ***DEMO PART - IF YOU WANT TO REPRODUCE IT***
 
-Tools I used:
+## Tools I used:
 - Warp, agentic Command Line Interface (optional to the demo)
 - Claude Vibe subscription (dlthub currently also support Copilot and Codex)
 
 
-How I ran the demo
+## How I ran the demo
 1) The demo started with an empty folder and consisted of:
 
-```cd path/to/folder```
+    cd path/to/folder
 
 2) Create and activate a virtual environment
 
-```uv venv```
-```source .venv/bin/activate```
+    uv venv
+    source .venv/bin/activate
 
 3)  Initialize uv and download dlthub
 ```uv init```
